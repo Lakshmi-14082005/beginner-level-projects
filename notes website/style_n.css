@@ -1,0 +1,257 @@
+*{
+    border:0;
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.back_ground{
+   background-color: rgb(255, 254, 252);
+}
+.thr_ed{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color:rgb(50, 109, 211);
+    position: fixed;
+}
+.logo{
+ margin-left: 40px;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+ font-style: italic;
+}
+  
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    top:6px;
+    left: 5px;
+    bottom: 3px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+}
+.thr_ed .menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.thr_ed .menu li{
+    margin-left: 40px;
+}
+.thr_ed .menu li a{
+    text-decoration: none;
+    color: rgb(13, 12, 12);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.thr_ed .menu li a:hover{
+   text-decoration-line: underline;
+    color: rgb(12, 19, 236);
+}
+.he_ad{
+display: flex;
+justify-content: space-between;
+}
+.he_ad h1{
+    font-size: 100px;
+    color: rgb(53, 53, 170);
+  font-style: normal;
+  margin-top: 60px;
+  margin-left: 70px;
+    font-family:'Courier New', Courier, monospace ;
+}
+.he_ad p{
+  margin-left: 30px; 
+  font-style: italic; 
+  margin-top: 5px; 
+  font-weight: lighter;
+}
+#tag{
+    margin-top: 30px;
+     margin-left: 70px; 
+     font-size: x-large;
+}
+.he_ad img{
+    margin-top: 40px;
+    margin-left: 90px;
+    height: 100px;
+}
+#intro_img img{
+    margin-top: 60px;
+    width: 450px;
+    height:400px;
+}
+.sub_info h2{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.img_dep{
+    display: flex;
+    justify-content: space-between;
+}
+.img_dep img{
+    width: 260px;
+    height: 260px;
+    margin: 25px;
+    border-radius: 30px;
+}
+.ye_ar h4{
+text-align: center;
+text-decoration: underline;
+color: blue;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+}
+
+.first_year{
+    display: flex;
+    line-height:1.5;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+.dep_mart{
+    margin: 10px;
+    
+}
+.dep_mart h3{
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(17, 17, 173);
+}
+
+#sem_1{
+    margin-left: 20px;
+    
+}
+.first_year li{
+    margin-left: 30px;
+}
+#sem_2{
+    margin-right: 70px;
+}
+.second_year{
+    display: flex;
+    line-height:1.5;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+#sem_3{
+    margin-left: 20px;
+    
+}
+.second_year li{
+    margin-left: 30px;
+}
+#sem_4{
+    margin-right: 70px;
+}
+.third_year{
+    display: flex;
+    line-height:1.5;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+#sem_5{
+    margin-left: 20px;
+    
+}
+.third_year li{
+    margin-left: 30px;
+}
+#sem_6{
+    margin-right: 70px;
+}
+.four_year{
+    display: flex;
+    line-height:1.5;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+#sem_7{
+    margin-left: 20px;
+    
+}
+.four_year li{
+    margin-left: 30px;
+}
+#sem_8{
+    margin-right: 70px;
+}
+.about_us h2{
+    font-size: 50px;
+    text-decoration: underline;
+   background-color: none;
+    color: rgb(17, 17, 173);
+}
+.about_us{
+    background-color: #e6f0ff;
+}
+.about_us p{
+    color: black;
+    line-height: 1.5;
+     margin: 5px;
+    font-style: italic;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e6f0ff;
+    font-size: medium;
+    text-indent: 60px;
+}
+.ser_vice h3{
+    font-size: 50px;
+    text-decoration: underline;
+   background-color: none;
+    color: rgb(17, 17, 173);
+}
+.ser_vice li{
+    line-height: 1.5;
+    margin-left: 30px;
+    list-style-type:square;
+}
+.con_tact{
+    line-height: 1.5;
+    background-color: #e6f0ff; 
+}
+.con_tact h3{
+    font-size: 50px;
+    margin-left: 20px;
+    text-decoration: underline;
+   background-color: none;
+    color: rgb(17, 17, 173); 
+}
+.con_tact p{
+    text-indent: 20px;
+}
+.con_tact ul{
+    line-height: 1.5;
+   
+    margin-left: 50px;
+    list-style-type:square;
+}
+/* #thank_you{
+    margin: 40px;
+    
+    font-weight:bold;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+} */
+ @font-face{
+    font-family: 'Bubble Sans';
+    src:url('Bubble Sans.woff2') format('woff2');
+
+ }
+ #thank_you{
+    font-family:'Bubble Sans' ;
+    /* margin: 40px; */
+    text-align: center;
+    font-weight:bold;
+    font-size: 50px;
+ }

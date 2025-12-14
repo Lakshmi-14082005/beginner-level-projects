@@ -1,0 +1,28 @@
+.container{
+    
+    background-color: rgb(92, 227, 227);
+    display: flex;
+    gap: 20px;
+   
+}
+#id1{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(227, 13, 13);
+    padding: 10px;
+    margin-left: 50px;
+}
+#id2{
+     width: 40px;
+    height: 40px;
+    background-color: rgb(19, 49, 197);
+    padding: 10px;
+     margin-left: 150px;
+}
+#id3{
+     width: 40px;
+    height: 40px;
+    background-color: rgb(87, 220, 39);
+    padding: 10px;
+     margin-left: 50px;
+}

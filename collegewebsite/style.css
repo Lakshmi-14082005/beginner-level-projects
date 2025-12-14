@@ -1,9 +1,10 @@
 *{
+    border: 0;
     margin: 0;
     padding: 0;
-    border: 0;
 }
-nav{
-   background-color: beige;
-  
+.ribbon{
+    background-color: blue;
+    border: 15px;
+
 }

@@ -2,6 +2,12 @@
    padding:0;
    box-sizing: border-box;
     margin: 0;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#profile h4{
+    margin: 10px;
     
 }
 #tag{
@@ -9,6 +15,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     height: auto;
+    text-decoration: underline;
     display: flex;
    align-items: center;
 }
@@ -66,6 +73,9 @@ li{
 .personal{
     margin-left: 20px;
 }
+.personal li{
+    margin-left: 130px;
+}
 #name{
    margin-left: 20px;
    font-size: 15px; 
@@ -84,12 +94,12 @@ pre{
     display: flex;
     margin-left: 20px;
     gap: 650px;
+    line-height: 2;
    
 }
-#end,b{
-    text-align: right;
-   
-} 
+#end p{
+    text-align: center;
+}
 #line{
     margin-left: 45px;
     line-height: 1;
